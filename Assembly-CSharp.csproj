@@ -53,9 +53,12 @@
     <Analyzer Include="C:\Users\surya\.vscode\extensions\visualstudiotoolsforunity.vstuc-0.9.1\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Script\TargetLocation.cs" />
     <Compile Include="Assets\Script\Waypoint.cs" />
     <Compile Include="Assets\Script\CoordinateLabel.cs" />
     <Compile Include="Assets\Script\EnemyMovement.cs" />
+    <Compile Include="Assets\Script\EnemyHelath.cs" />
+    <Compile Include="Assets\Script\ObjectPool.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
