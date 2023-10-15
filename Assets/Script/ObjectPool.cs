@@ -19,6 +19,7 @@ public class ObjectPool : MonoBehaviour
         StartCoroutine(SpawnEnemy());
     }
 
+    // initiating the enemy in a pool, and set them active to false
     private void PopulatePool()
     {
         pool = new GameObject[poolSize];
@@ -29,6 +30,7 @@ public class ObjectPool : MonoBehaviour
         }
     }
 
+    // set active the in pool
     private void EnableObjectInPool()
     {
         for(int i = 0; i < pool.Length; i++)

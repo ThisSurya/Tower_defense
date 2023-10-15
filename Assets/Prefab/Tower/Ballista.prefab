@@ -47,6 +47,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Weapon: {fileID: 3144582324300694500}
+  range: 15
+  projectileParticle: {fileID: 2150333967489119178}
 --- !u!1 &6131056645070147807
 GameObject:
   m_ObjectHideFlags: 0
@@ -241,6 +243,10 @@ PrefabInstance:
       propertyPath: CollisionModule.collisionMessages
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1675871080577332761, guid: 2669c892ea3a5874f982bd30f5584469, type: 3}
+      propertyPath: EmissionModule.rateOverTime.scalar
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7930931971854740878, guid: 2669c892ea3a5874f982bd30f5584469, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -287,6 +293,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2669c892ea3a5874f982bd30f5584469, type: 3}
+--- !u!198 &2150333967489119178 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 1675871080577332761, guid: 2669c892ea3a5874f982bd30f5584469, type: 3}
+  m_PrefabInstance: {fileID: 762909920777225683}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &7243532147313403997 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7930931971854740878, guid: 2669c892ea3a5874f982bd30f5584469, type: 3}

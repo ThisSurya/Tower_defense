@@ -36,10 +36,12 @@ public class CoordinateLabel : MonoBehaviour
     {
         if(waypoint.IsPlaceable)
         {
+            // coordinates color text when the tower is placeable
             label.color = defaultColor;
         }
         else
         {
+            // coordinates color text when the tower isn't placeable
             label.color = newColor;
         }
     }
@@ -52,6 +54,7 @@ public class CoordinateLabel : MonoBehaviour
         }
     }
 
+    // display the coordinate in the grid
     void DisplayCoordinates() 
     {
         coordinates.x = Mathf.RoundToInt(transform.parent.position.x / UnityEditor.EditorSnapSettings.move.x);

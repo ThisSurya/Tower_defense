@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "e:\\Ngoding\\Game Unity\\Realm defense\\Assembly-CSharp.csproj": {}
+    "E:\\Ngoding\\Game Unity\\Realm defense\\Assembly-CSharp.csproj": {}
   },
   "projects": {
-    "e:\\Ngoding\\Game Unity\\Realm defense\\Assembly-CSharp.csproj": {
+    "E:\\Ngoding\\Game Unity\\Realm defense\\Assembly-CSharp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "e:\\Ngoding\\Game Unity\\Realm defense\\Assembly-CSharp.csproj",
+        "projectUniqueName": "E:\\Ngoding\\Game Unity\\Realm defense\\Assembly-CSharp.csproj",
         "projectName": "Assembly-CSharp",
-        "projectPath": "e:\\Ngoding\\Game Unity\\Realm defense\\Assembly-CSharp.csproj",
+        "projectPath": "E:\\Ngoding\\Game Unity\\Realm defense\\Assembly-CSharp.csproj",
         "packagesPath": "C:\\Users\\surya\\.nuget\\packages\\",
-        "outputPath": "e:\\Ngoding\\Game Unity\\Realm defense\\obj\\",
+        "outputPath": "E:\\Ngoding\\Game Unity\\Realm defense\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\surya\\AppData\\Roaming\\NuGet\\NuGet.Config"
